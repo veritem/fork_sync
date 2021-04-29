@@ -1,0 +1,17 @@
+name: fork-sync
+author: "Makuza Mugabo Verite"
+description: "Keep in sync all of your forks in one place"
+
+
+inputs:
+  path:
+    required: false,
+    default: "fork_sync.yml"
+    description: "Config file"
+  token:
+    description: "Token for github api"
+    default: false
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

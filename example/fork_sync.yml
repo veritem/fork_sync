@@ -1,0 +1,9 @@
+commit_message: sync fork
+
+projects:
+ fasitfy:
+    - main: https://github.com/fastify/fastify
+    - fork: https://github.com/makuzaverite/fastify
+  deno:
+    - main: https://github.com/denoland/deno
+    - fork: https://github.com/makuzaverite/deno

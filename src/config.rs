@@ -1,0 +1,3 @@
+fn hell() {
+    println!("Hello")
+}
